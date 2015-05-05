@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2AFDB29E1AE7E15800EFFF0A /* BPDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFDB29D1AE7E15800EFFF0A /* BPDTableViewCell.m */; };
 		793D24F61AF9156900BE539D /* BPDStates.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 793D24F41AF9156900BE539D /* BPDStates.xcdatamodeld */; };
+		793D25021AF91D4B00BE539D /* BPDStates.m in Sources */ = {isa = PBXBuildFile; fileRef = 793D25011AF91D4B00BE539D /* BPDStates.m */; };
 		F74231D61AD803AD000F913E /* BPDUnidadeFederativa.m in Sources */ = {isa = PBXBuildFile; fileRef = F74231D51AD803AD000F913E /* BPDUnidadeFederativa.m */; };
 		F74231D91AD80887000F913E /* BPDUnidadeFederativaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = F74231D81AD80887000F913E /* BPDUnidadeFederativaStore.m */; };
 		F74231DC1AD819FF000F913E /* BPDEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F74231DB1AD819FF000F913E /* BPDEditViewController.m */; };
@@ -35,19 +36,21 @@
 		2AFDB29C1AE7E15800EFFF0A /* BPDTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPDTableViewCell.h; sourceTree = "<group>"; };
 		2AFDB29D1AE7E15800EFFF0A /* BPDTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPDTableViewCell.m; sourceTree = "<group>"; };
 		793D24F51AF9156900BE539D /* BPDStates.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BPDStates.xcdatamodel; sourceTree = "<group>"; };
-		F74231D41AD803AD000F913E /* BPDUnidadeFederativa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BPDUnidadeFederativa.h; path = ../BPDUnidadeFederativa.h; sourceTree = "<group>"; };
-		F74231D51AD803AD000F913E /* BPDUnidadeFederativa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BPDUnidadeFederativa.m; path = ../BPDUnidadeFederativa.m; sourceTree = "<group>"; };
-		F74231D71AD80887000F913E /* BPDUnidadeFederativaStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BPDUnidadeFederativaStore.h; path = ../BPDUnidadeFederativaStore.h; sourceTree = "<group>"; };
-		F74231D81AD80887000F913E /* BPDUnidadeFederativaStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BPDUnidadeFederativaStore.m; path = ../BPDUnidadeFederativaStore.m; sourceTree = "<group>"; };
-		F74231DA1AD819FF000F913E /* BPDEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPDEditViewController.h; sourceTree = "<group>"; };
-		F74231DB1AD819FF000F913E /* BPDEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPDEditViewController.m; sourceTree = "<group>"; };
+		793D25001AF91D4B00BE539D /* BPDStates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPDStates.h; sourceTree = "<group>"; };
+		793D25011AF91D4B00BE539D /* BPDStates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPDStates.m; sourceTree = "<group>"; };
+		F74231D41AD803AD000F913E /* BPDUnidadeFederativa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPDUnidadeFederativa.h; sourceTree = "<group>"; };
+		F74231D51AD803AD000F913E /* BPDUnidadeFederativa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPDUnidadeFederativa.m; sourceTree = "<group>"; };
+		F74231D71AD80887000F913E /* BPDUnidadeFederativaStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPDUnidadeFederativaStore.h; sourceTree = "<group>"; };
+		F74231D81AD80887000F913E /* BPDUnidadeFederativaStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPDUnidadeFederativaStore.m; sourceTree = "<group>"; };
+		F74231DA1AD819FF000F913E /* BPDEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BPDEditViewController.h; path = TableView/BPDEditViewController.h; sourceTree = "<group>"; };
+		F74231DB1AD819FF000F913E /* BPDEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BPDEditViewController.m; path = TableView/BPDEditViewController.m; sourceTree = "<group>"; };
 		F77B277B1AD554DF006ED18A /* TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F77B277F1AD554DF006ED18A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F77B27801AD554DF006ED18A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F77B27821AD554DF006ED18A /* BPDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPDAppDelegate.h; sourceTree = "<group>"; };
-		F77B27831AD554DF006ED18A /* BPDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPDAppDelegate.m; sourceTree = "<group>"; };
-		F77B27851AD554DF006ED18A /* BPDMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPDMainViewController.h; sourceTree = "<group>"; };
-		F77B27861AD554DF006ED18A /* BPDMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPDMainViewController.m; sourceTree = "<group>"; };
+		F77B27821AD554DF006ED18A /* BPDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BPDAppDelegate.h; path = TableView/BPDAppDelegate.h; sourceTree = "<group>"; };
+		F77B27831AD554DF006ED18A /* BPDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BPDAppDelegate.m; path = TableView/BPDAppDelegate.m; sourceTree = "<group>"; };
+		F77B27851AD554DF006ED18A /* BPDMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BPDMainViewController.h; path = TableView/BPDMainViewController.h; sourceTree = "<group>"; };
+		F77B27861AD554DF006ED18A /* BPDMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BPDMainViewController.m; path = TableView/BPDMainViewController.m; sourceTree = "<group>"; };
 		F77B27891AD554DF006ED18A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F77B278B1AD554DF006ED18A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F77B278E1AD554DF006ED18A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -74,9 +77,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		793D24F81AF91AFF00BE539D /* BPDUF */ = {
+			isa = PBXGroup;
+			children = (
+				793D24FC1AF91B7500BE539D /* Classes */,
+			);
+			name = BPDUF;
+			sourceTree = "<group>";
+		};
+		793D24FC1AF91B7500BE539D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F77B27821AD554DF006ED18A /* BPDAppDelegate.h */,
+				F77B27831AD554DF006ED18A /* BPDAppDelegate.m */,
+				793D24FF1AF91B8800BE539D /* view */,
+				793D24FE1AF91B8300BE539D /* model */,
+				793D24FD1AF91B7E00BE539D /* controller */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		793D24FD1AF91B7E00BE539D /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F77B27851AD554DF006ED18A /* BPDMainViewController.h */,
+				F77B27861AD554DF006ED18A /* BPDMainViewController.m */,
+				F74231DA1AD819FF000F913E /* BPDEditViewController.h */,
+				F74231DB1AD819FF000F913E /* BPDEditViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		793D24FE1AF91B8300BE539D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F74231D81AD80887000F913E /* BPDUnidadeFederativaStore.m */,
+				F74231D51AD803AD000F913E /* BPDUnidadeFederativa.m */,
+				F74231D41AD803AD000F913E /* BPDUnidadeFederativa.h */,
+				F74231D71AD80887000F913E /* BPDUnidadeFederativaStore.h */,
+				793D25001AF91D4B00BE539D /* BPDStates.h */,
+				793D25011AF91D4B00BE539D /* BPDStates.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		793D24FF1AF91B8800BE539D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F77B27881AD554DF006ED18A /* Main.storyboard */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
 		F77B27721AD554DF006ED18A = {
 			isa = PBXGroup;
 			children = (
+				793D24F81AF91AFF00BE539D /* BPDUF */,
 				793D24F41AF9156900BE539D /* BPDStates.xcdatamodeld */,
 				F77B277D1AD554DF006ED18A /* TableView */,
 				F77B27971AD554DF006ED18A /* TableViewTests */,
@@ -96,17 +152,6 @@
 		F77B277D1AD554DF006ED18A /* TableView */ = {
 			isa = PBXGroup;
 			children = (
-				F74231D71AD80887000F913E /* BPDUnidadeFederativaStore.h */,
-				F74231D81AD80887000F913E /* BPDUnidadeFederativaStore.m */,
-				F74231D41AD803AD000F913E /* BPDUnidadeFederativa.h */,
-				F74231D51AD803AD000F913E /* BPDUnidadeFederativa.m */,
-				F77B27821AD554DF006ED18A /* BPDAppDelegate.h */,
-				F77B27831AD554DF006ED18A /* BPDAppDelegate.m */,
-				F77B27851AD554DF006ED18A /* BPDMainViewController.h */,
-				F77B27861AD554DF006ED18A /* BPDMainViewController.m */,
-				F74231DA1AD819FF000F913E /* BPDEditViewController.h */,
-				F74231DB1AD819FF000F913E /* BPDEditViewController.m */,
-				F77B27881AD554DF006ED18A /* Main.storyboard */,
 				2AFDB29C1AE7E15800EFFF0A /* BPDTableViewCell.h */,
 				2AFDB29D1AE7E15800EFFF0A /* BPDTableViewCell.m */,
 				F77B278B1AD554DF006ED18A /* Images.xcassets */,
@@ -243,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				793D24F61AF9156900BE539D /* BPDStates.xcdatamodeld in Sources */,
+				793D25021AF91D4B00BE539D /* BPDStates.m in Sources */,
 				F74231D61AD803AD000F913E /* BPDUnidadeFederativa.m in Sources */,
 				F77B27871AD554DF006ED18A /* BPDMainViewController.m in Sources */,
 				2AFDB29E1AE7E15800EFFF0A /* BPDTableViewCell.m in Sources */,
@@ -278,6 +324,7 @@
 				F77B27891AD554DF006ED18A /* Base */,
 			);
 			name = Main.storyboard;
+			path = TableView;
 			sourceTree = "<group>";
 		};
 		F77B278D1AD554DF006ED18A /* LaunchScreen.xib */ = {

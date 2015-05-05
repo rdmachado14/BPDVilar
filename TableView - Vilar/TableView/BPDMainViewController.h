@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BPDUnidadeFederativaStore.h"
+#import "BPDUnidadeFederativa.h"
 
-@interface BPDMainViewController : UIViewController
+@interface BPDMainViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 
 @end
