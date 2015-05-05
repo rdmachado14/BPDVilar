@@ -7,6 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BPDUnidadeFederativa.h"
+@import CoreData;
 
 @interface BPDUnidadeFederativaStore : NSObject
 
@@ -14,5 +16,11 @@
 
 + (BPDUnidadeFederativaStore *)states;
 + (BPDUnidadeFederativaStore *)districts;
++ (instancetype) sharedStore;
+- (void) addNewStateByCode: (NSString *)code andName: (NSString *)name;
+- (NSArray *)getAllStates;
+- (void) setManagedObjectContext: (NSManagedObjectContext *)managedObjectContext;
+
+
 
 @end

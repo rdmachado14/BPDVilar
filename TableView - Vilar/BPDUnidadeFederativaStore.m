@@ -11,7 +11,7 @@
 
 @interface BPDUnidadeFederativaStore ()
 
-@property (nonatomic) NSMutableArray *itemsArray;
+/*@property (nonatomic) NSMutableArray *itemsArray;
 
 @end
 
@@ -59,7 +59,7 @@
 
 - (NSArray *)items {
     return self.itemsArray;
-}
+}*/
 
 @end
 
